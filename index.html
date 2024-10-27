@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio website</title> 
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/a8063bbfd1.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            
+            <ul id="sidemenu">
+
+                <i class="fas fa-times" onclick="closemenu()"></i>
+                
+
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#Portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+               
+                
+
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Data Engineer/Application Developer</p>
+            <h1> Hi, I'm <span>Rithesh</span><br>Raj From Illinois, USA</h1>
+        </div>
+    </div>
+</div>
+<!-------------------------------about-------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> I am a dedicated Data Engineer and Application Developer skilled in ETL processes, data visualization, and automation, with extensive experience in Microsoft Power Platform, Python, SQL,HTML, CSS and JavaScript. Currently, I'm pursuing Masters in Computer Science at the University of Illinois Springfield, with a focus on Advanced database concepts, Application Development, Cybersecurity, JavaScript etc. My previous role as a Data Engineer at Infinite Computer Solutions allowed me to work on large, complex datasets, enhancing data-driven decision-making and  my recent role as an intern at CMS was to develop an Application optimizing workflows through tools like Power Apps, Power Automate and Power BI to create a custom work flow solution foor the Security managemnet team.
+
+                   <br> In addition, I developed a machine learning platform for disease detection in agriculture, which uses neural networks to assist farmers with real-time solutions. I also engineered an AI-based proctoring system, achieving a 98% reliability rate in monitoring user sessions. My approach combines strong analytical and technical skills with collaborative communication, enabling me to work seamlessly with cross-functional teams to deliver innovative, user-focused solutions.</p>
+
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')"> Skills </p>
+                    <p class="tab-links" onclick="opentab('experience')"> Experience </p>
+                    <p class="tab-links" onclick="opentab('education')"> Education </p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Python, Keras, Machine Learning, Neural Networks, Pandas</span><br>Software Developement</li>
+                        <li><span>Data cleaning, Data Pre- processing, Power BI, Data Visualization</span><br>Data Analysis</li>
+                        <li><span>Sharepoint, Lists, Power Apps, JaSon, Power Automate, Power BI, JavaScript, Css</span><br>Application Development</li>
+                        <li><span>Linux, CBAM, CBIS, HpOneView</span><br>Cloud Database Deployment</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Infinite Computer Solutions (2021-2023) 2 Years</span><br><b>Data Engineer</b> <br> ETL Development: Designed, built, and maintained custom data pipelines for ETL (Extraction,
+                            Transformation, and Loading) processes using multiple data sources with ETL accuracy up to 73%.
+                            <br>Data Management: Managed large and complex datasets, including unstructured data, to deliver business
+                            solutions and improve data-driven decision-making by 70%.
+                            <br>Collaboration: Worked closely with cross-functional teams to support the business unit in completing tasks,
+                            including project management, day-to-day operations, and data analysis.
+                            <br>Technical Solving: Identified and resolved issues in data stores, optimizing performance and workflow
+                            automation through tools like Power Automate.
+                            <br>Training & Development: Participated in training programs, workshops, and on-the-job learning, enhancing
+                            skills in Power BI, data engineering, and automation.
+                            <br>Reporting & Documentation: Documented progress, prepared reports, and delivered presentations to
+                            business stakeholders, ensuring clear and effective communication.
+                            <br>Project Management: Took ownership of assigned tasks, adhered to timelines, and contributed to team
+                            meetings, displaying professionalism, punctuality, and attention to detail.
+                            Continuous Improvement: Sought feedback and applied new knowledge, improving data processes and
+                            driving operational efficiency by 80%.</li>
+                        <li><span>Illinois Department of Central Management Services(Summer Internship) (June 2024-July 2014)</span><br><b>Application Developer</b>
+                           <br> <b>Enhancement of Model-Driven Power App:</b>
+                            Worked closely with the development team to understand project requirements and developed an
+                            effective user-friendly Security application using Microsoft Power Platform tools and JavaScript
+                            language with a working load accuracy of 80%.<br>
+                            Created, customized, and deployed Power Apps applications to meet specific business needs
+                            that were 80%, including developing forms, workflows, and interfaces.<br>
+                            Designed and implemented automated workflows using Power Automate to streamline repetitive
+                            tasks and improve operational efficiency by 92%.<br>
+                            <b>Dashboard Development:</b>
+                            Utilized Power BI to develop and maintain interactive Dashboard visualization and reports that
+                            provide actionable insights and support data-driven decision-making to have a good user
+                            experience with 100% data analysis.<br>
+                            Integrated Power Platform solutions with various data sources and services, ensuring seamless data
+                            flow and connectivity across different systems by 75%.<br>
+                            <b>Data Analysis and Reporting:</b>
+                            Test applications and workflows to identify and resolve issues, ensuring functionality,
+                            reliability, and performance standards are met and creating a report of it with 80% accuracy.<br>
+                            Prepared and maintained comprehensive documentation for applications, workflows, and
+                            processes to facilitate future updates and user training by up to 90%.<br>
+                            <b>Collaboration and Communication:</b>
+                            Assisted end-users with troubleshooting and resolving technical issues related to Power
+                            Platform applications and solutions with an issue resolution of 92%.<br>
+                            Attend team meetings, project reviews, and brainstorming sessions to contribute ideas and provide
+                            updates on development progress.<br>
+                            <b>Continuous Improvement:</b>
+                            Stay current with Power Platform advancements and evolve to new and best practices, applying this
+                            knowledge to enhance solution quality and development processes up to 100%.<br>
+                            Managed tasks effectively to ensure timely delivery of applications and solutions, meeting project
+                            milestones and deadlines with an accuracy of 85%.</li>
+                    
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Reva University, India (Graduated)</span><br>Bachelors of Computer Applications</li>
+                        <li><span>Univeristy of Illinois At Springfield, Illinois (Pursuing) </span><br>Masters in Computer Science</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------certifications----------------->
+<div id="certifications">
+    <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+        <div class="certifications-list">
+            <div>
+                <i class="fa-brands fa-microsoft"></i>
+                <h2>Microsoft Technology</h2>
+                <p> Programming in Python Certification issued 
+                    by Microsoft Technology with Hands-on projects</p>
+                <a href="https://drive.google.com/file/d/1j-SUkkK1w_u2l8Rwfs6o-ML7-HevYcqp/view?usp=sharing">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-google"></i>
+                <h2>Google Cloud Data Engineer</h2>
+                <p> (Professional Cloud Data Engineer) certification is to deploy Data Pipeline inside GCP cloud.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>              <i class="fa-brands fa-microsoft"></i>
+                <h2>Microsoft Power platform</h2>
+                <p>Power Platform (PowerApps, Power Automate, and SharePoint), and master PL-900</p>
+                <a href="#">Learn More</a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!-------------------------portfolio------------------>
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.jpeg">
+                <div class="layer">
+                    <h3>Disease Detection Software</h3>
+                    <p> Python Software to detect the type of disease in pomegranates using image processing and neural network Technology</p>
+                    <a href="https://github.com/ritheshr/Disease-detection-in-pomegranate-using-Neural-networks/blob/5eabc1c152beb760d3f477954dc6d6cf397faeeb/pomegranate%20disease%20detection.ipynb"><i class="fa-solid fa-link" style="color: #151414;"></i></a>
+
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="images/work2.jpeg">
+                <div class="layer">
+                    <h3>Employee Salary Data Analysis </h3>
+                    <p>Employee Salary analysis based on base pay,  overtime and longetivity, result of data into charts and graphs</p>
+                    <a href="https://github.com/ritheshr/Employee-Data-Analysis-2023/blob/50e068ac132265d96fa748d2e2301138f3704708/Employee%20(2).ipynb"><i class="fa-solid fa-link" style="color: #151414;"></i></a>
+
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="images/work3.webp">
+                <div class="layer">
+                    <h3> Web Design</h3>
+            <p>A single web page design of a persons porfolio with the languages HTML as front-end and CSS as Back-end development.
+                    </p>
+                    <a href=""><i class="fa-solid fa-link" style="color: #151414;"></i></a>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-------------------------------contact------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> Ritheshraj321@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +1-2177617326</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/rithesh-raja-14a65a167/"> <i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/rithesh.raj_/"> <i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.threads.net/@rithesh.raj_?invite=0"> <i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://github.com/ritheshr"> <i class="fa-brands fa-github"></i></a>
+                </div>
+                <br>
+
+                <a href="images/Rithesh Raja -2.pdf" download class="download-btn">Download Resume</a>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit" class="submit-btn"> Submit </button>
+                </form>
+
+                <span id="msg"></span>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyrights  <i class="fa-solid fa-copyright" style="color: #e4ecec;"></i> Rithesh Raj for portfolio website  <i class="fa-solid fa-briefcase"></i></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    
+    }
+    
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyDjtLVqggCkmQw4GFb37rGC33TsLVIFIdUyzfg3KB-mzeTSb4s7RvtpWkWPW_mPKdd/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Response sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+
+            },5000)
+            form.reset()
+
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    </body>
+</html>
